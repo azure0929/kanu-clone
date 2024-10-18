@@ -13,7 +13,103 @@
 body {
   font: 1em "Pretendard", "Roboto", "Verdana", "Dotum", "AppleGothic",
     sans-serif;
+  margin: 0;
+  padding: 0;
 }
-#wrap {
-  border: 1px solid blue;
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* header */
+#cnb-header {
+  border: 1px solid red;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: #be8354;
+  font-size: 15px;
+  padding: 8px 0;
+  box-sizing: border-box;
+  z-index: 50;
+}
+#cnb-header .cnb-header-bg {
+  position: relative;
+}
+#cnb-header .cnb-header-bg nav {
+  border: 1px solid #fff;
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  padding: 1.25rem 50px 1.25rem 30px;
+  background-color: #191919;
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+#cnb-header .cnb-header-bg nav .logo {
+  max-width: 90px;
+  width: 100%;
+}
+#cnb-header .cnb-header-bg nav .link {
+  display: flex;
+  width: 100%;
+}
+#cnb-header .cnb-header-bg nav .link .cnb-menu-list {
+  display: flex;
+  gap: 2.75rem;
+  align-items: center;
+  font-weight: 500;
+}
+#cnb-header .cnb-header-bg nav .link .cnb-menu-list li {
+  padding: 0.25rem 0;
+}
+#cnb-header .cnb-header-bg nav .link .cnb-menu-list li a {
+  position: relative;
+  padding: 0.5rem 0.25rem;
+  color: #be8354;
+}
+#cnb-header .cnb-header-bg nav .link .cnb-menu-list li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffa257;
+  width: 0;
+  height: 1px;
+  transition: all 0.2s ease-in;
+}
+#cnb-header .cnb-header-bg nav .link .cnb-menu-list li a:hover {
+  color: #ffa257;
+}
+#cnb-header .cnb-header-bg nav .link .cnb-menu-list li a:hover::after {
+  width: 100%;
+}
+#cnb-header .cnb-header-bg nav .link ul:last-child {
+  margin-left: auto;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+#cnb-header .cnb-header-bg nav .link ul:last-child li {
+  flex: 1;
+}
+#cnb-header .cnb-header-bg nav .link ul:last-child li:last-child {
+  position: relative;
+}
+#cnb-header .cnb-header-bg nav .link ul:last-child li:last-child span {
+  position: absolute;
+  top: -8px;
+  right: -100%;
+  font-size: 0.875rem;
+  color: #be8354;
+  width: 1.5rem;
 }
