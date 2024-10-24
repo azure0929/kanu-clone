@@ -1,19 +1,14 @@
-@font-face {
-  font-family: "Pretendard-Regular";
-  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
-    format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-body {
-  font: 1em "Pretendard", "Roboto", "Verdana", "Dotum", "AppleGothic",
-    sans-serif;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 16px;
 }
 a {
+  font-family: "Roboto", sans-serif;
   color: #191919;
   text-decoration: none;
 }
@@ -22,9 +17,13 @@ img {
   height: 100%;
   display: block;
 }
+[data-aos^="fade"][data-aos^="fade"] {
+  opacity: 1;
+}
 
 /* header */
 #cnb-header {
+  font-family: "Roboto", sans-serif;
   position: fixed;
   left: 0;
   top: 0;
@@ -121,7 +120,7 @@ img {
     no-repeat center;
   background-size: cover;
 }
-/* main - section: 카누 바리스타 전용머신 */
+/* section-카누 바리스타 전용머신 */
 #wrap #container #contents .coffee-machine {
   padding-top: 100px;
 }
@@ -209,6 +208,7 @@ img {
   margin-top: 8px;
   color: #ccc;
   font-size: 1rem;
+  line-height: 1.5rem;
   text-align: center;
 }
 #wrap #container #contents .coffee-machine .kanu-tab-rander #product-detail-bg {
@@ -251,4 +251,81 @@ img {
   .urban-shop-link {
   color: #f1f1f1;
   border-bottom-color: #f1f1f1;
+}
+/* section-카누 바리스타 캡슐 */
+#wrap #container #contents .kanu-capsule {
+  padding: 100px 0 120px 0;
+  color: #f1f1f1;
+  background-color: #3d3d3c;
+}
+#wrap #container #contents .kanu-capsule .kanu-capsule-bg {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+#wrap #container #contents .kanu-capsule .kanu-capsule-bg .title {
+  color: #be8354;
+  font-size: 1.125rem;
+}
+#wrap #container #contents .kanu-capsule .kanu-capsule-bg .title-sub {
+  margin-top: 0.875rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+#wrap #container #contents .kanu-capsule .kanu-capsule-bg ul {
+  margin-top: 50px;
+  display: flex;
+  gap: 1.5rem;
+}
+#wrap #container #contents .kanu-capsule .kanu-capsule-bg ul li {
+  flex: 1;
+  height: 554px;
+  padding: 70px 90px 114px 90px;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#wrap #container #contents .kanu-capsule .kanu-capsule-bg ul li div {
+  width: 200px;
+  height: 200px;
+}
+#wrap
+  #container
+  #contents
+  .kanu-capsule
+  .kanu-capsule-bg
+  ul
+  li
+  p:nth-of-type(1) {
+  width: 120%;
+  font-size: 22px;
+  font-weight: 500;
+}
+#wrap
+  #container
+  #contents
+  .kanu-capsule
+  .kanu-capsule-bg
+  ul
+  li
+  p:nth-of-type(2) {
+  margin-top: 1rem;
+  color: #ddd;
+  line-height: 1.5rem;
+}
+#wrap #container #contents .kanu-capsule .kanu-capsule-bg ul li a {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border: 1px solid #f1f1f1;
+  color: #f1f1f1;
+  font-size: 0.875rem;
+  padding: 0.875rem 0.5rem;
+  line-height: 1.25rem;
+  width: 140px;
+  height: 2.75rem;
 }
