@@ -282,16 +282,16 @@ function Main() {
             </div>
           </section>
           {/* 머신소개,캡슐 소개 섹션 */}
-          <section>
-            <div>
+          <section className="capsule-introduce">
+            <div className="photo">
               <div></div>
             </div>
-            <div>
-              <div>
+            <div className="contents">
+              <div className="inner">
                 <div>
-                  <p>Special Machine</p>
-                  <p>한번의 터치로 완성하는 캡슐 머신</p>
-                  <p>
+                  <p className="title">Special Machine</p>
+                  <p className="product">한번의 터치로 완성하는 캡슐 머신</p>
+                  <p className="detail">
                     단 한번의 터치로 카페 퀄리티의 아메리카노를
                     <br />
                     간편하게 완성 할 수 있습니다.
@@ -317,12 +317,12 @@ function Main() {
                 </div>
               </div>
             </div>
-            <div>
-              <div>
+            <div className="contents-reverse">
+              <div className="inner">
                 <div>
-                  <p>Special Capsule</p>
-                  <p>다양한 로스팅으로 즐기는 카누 캡슐</p>
-                  <p>
+                  <p className="title">Special Capsule</p>
+                  <p className="product">다양한 로스팅으로 즐기는 카누 캡슐</p>
+                  <p className="detail">
                     라이트 로스팅부터 다크 로스팅까지 원하는 단계별로
                     <br />
                     카누의 풍부한 캡슐을 즐겨보세요.
@@ -348,22 +348,22 @@ function Main() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="photo-reverse">
               <div></div>
             </div>
           </section>
           {/* 시리얼 번호 등록 섹션 */}
-          <section>
-            <div></div>
-            <div>
-              <h2>
+          <section className="serial-number">
+            <div className="serial-bg"></div>
+            <div className="content">
+              <div className="logo">
                 <img
                   src="https://kanu.co.kr/layout/basic/img/main/kanulogo-white.svg"
                   alt="kanu"
                 />
-              </h2>
-              <p>카누 바리스타 정품 등록 혜택</p>
-              <div>
+              </div>
+              <p className="title">카누 바리스타 정품 등록 혜택</p>
+              <div className="benefit">
                 <div>
                   <img
                     src="https://kanu.co.kr/layout/basic/img/main/kanuBenefit.jpg"
@@ -371,10 +371,10 @@ function Main() {
                   />
                 </div>
               </div>
-              <div>
+              <div className="register">
                 <div>
-                  <p>카누 정품 시리얼 번호 등록</p>
-                  <p>
+                  <p className="title">카누 정품 시리얼 번호 등록</p>
+                  <p className="info">
                     정품등록을 하고 카누 바리스타의 가치를
                     <br />
                     서비스를 통해 누려 보세요.
@@ -404,15 +404,18 @@ function Main() {
                       <strong>24</strong>
                       개월
                     </span>
+                    <br />
                     무상보증
                   </li>
                   <li>
                     클리닝
                     <br />
+                    <br />
                     서비스
                   </li>
                   <li>
                     다양한
+                    <br />
                     <br />
                     혜택제공
                   </li>

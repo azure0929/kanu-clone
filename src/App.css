@@ -329,3 +329,222 @@ img {
   width: 140px;
   height: 2.75rem;
 }
+#wrap #container #contents .capsule-introduce {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#wrap #container #contents .capsule-introduce .photo div {
+  height: 600px;
+  background-image: url("https://kanu.co.kr/layout/basic/img/main/sepcialKanuMachine.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#wrap #container #contents .capsule-introduce .contents {
+  background-color: #212121;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#wrap #container #contents .capsule-introduce .contents .inner {
+  width: calc(1280px / 2);
+  display: flex;
+  justify-content: flex-end;
+}
+#wrap #container #contents .capsule-introduce .contents .inner div {
+  display: inline-flex;
+  flex-direction: column;
+}
+#wrap #container #contents .capsule-introduce .contents .inner div .title {
+  color: #be8354;
+  font-size: 1.125rem;
+  margin-bottom: 12px;
+}
+#wrap #container #contents .capsule-introduce .contents .inner div .product {
+  font-size: 2.125rem;
+  font-weight: 600;
+}
+#wrap #container #contents .capsule-introduce .contents .inner div .detail {
+  margin-top: 1.5rem;
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+#wrap #container #contents .capsule-introduce .contents .inner div a {
+  margin-top: 2.5rem;
+  padding: 0.875rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border: 1px solid #f1f1f1;
+  width: 140px;
+  height: 2.75rem;
+  color: #f1f1f1;
+}
+#wrap #container #contents .capsule-introduce .contents-reverse {
+  height: 600px;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#wrap #container #contents .capsule-introduce .contents-reverse .inner {
+  width: calc(1280px / 2);
+  display: flex;
+  justify-content: flex-start;
+}
+#wrap #container #contents .capsule-introduce .contents-reverse .inner div {
+  display: inline-flex;
+  flex-direction: column;
+}
+#wrap
+  #container
+  #contents
+  .capsule-introduce
+  .contents-reverse
+  .inner
+  div
+  .title {
+  color: #be8354;
+  font-size: 1.125rem;
+  margin-bottom: 12px;
+}
+#wrap
+  #container
+  #contents
+  .capsule-introduce
+  .contents-reverse
+  .inner
+  div
+  .product {
+  font-size: 2.125rem;
+  font-weight: 600;
+}
+#wrap
+  #container
+  #contents
+  .capsule-introduce
+  .contents-reverse
+  .inner
+  div
+  .detail {
+  margin-top: 1.5rem;
+  color: #999;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+#wrap #container #contents .capsule-introduce .contents-reverse .inner div a {
+  margin-top: 2.5rem;
+  padding: 0.875rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border: 1px solid #111;
+  width: 140px;
+  height: 2.75rem;
+  color: #111;
+}
+#wrap #container #contents .capsule-introduce .photo-reverse div {
+  height: 600px;
+  background-image: url("https://kanu.co.kr/layout/basic/img/main/sepcialKanuCapsule.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* 시리얼 번호 등록 */
+#wrap #container #contents .serial-number {
+  position: relative;
+}
+#wrap #container #contents .serial-number .serial-bg {
+  height: 490px;
+  background-color: #222;
+}
+#wrap #container #contents .serial-number .content {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1280px;
+  margin: 0 auto;
+  z-index: 1;
+}
+#wrap #container #contents .serial-number .content .logo {
+  width: 104px;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wrap #container #contents .serial-number .content .title {
+  margin-top: 1rem;
+  font-size: 32px;
+  font-weight: 600;
+  color: #f1f1f1;
+  text-align: center;
+}
+#wrap #container #contents .serial-number .content .benefit {
+  margin-top: 50px;
+  height: 680px;
+}
+#wrap #container #contents .serial-number .content .register {
+  padding: 108px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#wrap #container #contents .serial-number .content .register .title {
+  color: #111;
+  font-size: 32px;
+  font-weight: 600;
+}
+#wrap #container #contents .serial-number .content .register .info {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+#wrap #container #contents .serial-number .content .register a {
+  margin-top: 2.5rem;
+  padding: 0.875rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border: 1px solid #111;
+  font-size: 0.875rem;
+  width: 140px;
+  height: 44px;
+}
+#wrap #container #contents .serial-number .content .register ul {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  color: #f1f1f1;
+  font-size: 22px;
+}
+#wrap #container #contents .serial-number .content .register ul li {
+  width: 154px;
+  height: 154px;
+  padding: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #111 0%, #444 47%, #111 100%);
+}
+#wrap #container #contents .serial-number .content .register ul li span strong {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+@media (max-width: 1536px) {
+  #wrap #container #contents .capsule-introduce .contents .inner,
+  #wrap #container #contents .capsule-introduce .contents-reverse .inner {
+    justify-content: center;
+  }
+}
