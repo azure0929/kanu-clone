@@ -457,20 +457,18 @@ img {
 
 /* 시리얼 번호 등록 */
 #wrap #container #contents .serial-number {
-  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 #wrap #container #contents .serial-number .serial-bg {
+  width: 100%;
   height: 490px;
   background-color: #222;
 }
 #wrap #container #contents .serial-number .content {
-  position: absolute;
-  top: 120px;
-  left: 50%;
-  transform: translateX(-50%);
   width: 1280px;
-  margin: 0 auto;
-  z-index: 1;
+  margin-top: -380px;
 }
 #wrap #container #contents .serial-number .content .logo {
   width: 104px;
@@ -540,6 +538,77 @@ img {
 #wrap #container #contents .serial-number .content .register ul li span strong {
   font-size: 32px;
   font-weight: 400;
+}
+
+/* footer */
+footer {
+  color: #edecec;
+  background-color: #111;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 0.875rem;
+}
+footer .inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 108px;
+  width: 1280px;
+  margin: 0 auto;
+}
+footer .inner .photo {
+  flex: 0 1 242px;
+}
+footer .inner .content {
+  flex: 1;
+}
+footer .inner .content .company {
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+footer .inner .content > ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 200px;
+  justify-content: space-between;
+}
+footer .inner .content > ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+footer .inner .content > ul li p {
+  color: #aeabab;
+  font-weight: 500;
+}
+footer .inner .content > ul li .confirm {
+  padding: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: 32px;
+  font-size: 13px;
+  color: #edecec;
+  border: 1px solid #7c7777;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+footer .inner .content .copyright {
+  margin-top: 3rem;
+}
+footer .inner .content .copyright ul {
+  display: flex;
+  gap: 36px;
+}
+footer .inner .content .copyright ul li a {
+  padding: 0.25rem;
+  color: #f1f1f1;
+}
+footer .inner .content .copyright p {
+  margin-top: 0.75rem;
+  color: #625e5e;
+  font-weight: 500;
 }
 
 @media (max-width: 1536px) {

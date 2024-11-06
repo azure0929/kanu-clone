@@ -281,7 +281,7 @@ function Main() {
               </ul>
             </div>
           </section>
-          {/* 머신소개,캡슐 소개 섹션 */}
+          {/* 머신소개,캡슐 소개 */}
           <section className="capsule-introduce">
             <div className="photo">
               <div></div>
@@ -352,7 +352,7 @@ function Main() {
               <div></div>
             </div>
           </section>
-          {/* 시리얼 번호 등록 섹션 */}
+          {/* 시리얼 번호 등록 */}
           <section className="serial-number">
             <div className="serial-bg"></div>
             <div className="content">
