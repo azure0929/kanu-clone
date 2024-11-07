@@ -503,6 +503,7 @@ img {
 #wrap #container #contents .serial-number .content .register .info {
   margin-top: 1rem;
   font-size: 1rem;
+  line-height: 1.5rem;
 }
 #wrap #container #contents .serial-number .content .register a {
   margin-top: 2.5rem;
