@@ -1,8 +1,29 @@
+import { useState, useEffect } from "react";
 import "../App.css";
 
 function Header() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header id="cnb-header" className="cnb-header">
+    <header
+      id="cnb-header"
+      className={`cnb-header ${scrolled ? "scrolled" : ""}`}
+    >
       <div className="cnb-header-bg">
         <nav className="cnb-header-inner">
           <div className="logo">

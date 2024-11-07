@@ -10,10 +10,10 @@ function Footer() {
               xmlns="http://www.w3.org/2000/svg"
               width="242"
               height="54"
-              viewbox="0 0 242 54"
+              viewBox="0 0 242 54"
               fill="none"
             >
-              <g clip-path="url(#clip0_593_2671)">
+              <g clipPath="url(#clip0_593_2671)">
                 <path
                   d="M0 0.383789H1.89315V36.0339L43.6579 0.383789H46.2898L20.0859 22.6096L47.2364 53.1726H44.9046L18.793 23.7401L1.89315 38.1333V53.1726H0V0.383789Z"
                   fill="#C2866D"
@@ -32,9 +32,9 @@ function Footer() {
                 ></path>
               </g>
               <defs>
-                <clippath id="clip0_593_2671">
+                <clipath id="clip0_593_2671">
                   <rect width="242" height="54" fill="white"></rect>
-                </clippath>
+                </clipath>
               </defs>
             </svg>
           </a>
