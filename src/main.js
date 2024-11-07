@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./App.css";
 
 function Main() {
@@ -9,6 +11,10 @@ function Main() {
   const handleTabClick = (tabType) => {
     setActiveTab(tabType); // 선택된 탭을 업데이트
   };
+
+  useEffect(() => {
+    AOS.init();
+  });
 
   return (
     <div id="wrap">
@@ -176,9 +182,13 @@ function Main() {
           {/* 카누 바리스타 캡슐 */}
           <section className="kanu-capsule">
             <div className="kanu-capsule-bg">
-              <p className="title">KANU BARISTA Capsule</p>
-              <p className="title-sub">아메리카노를 위한 카누 바리스타 캡슐</p>
-              <ul>
+              <p className="title" data-aos="fade-up">
+                KANU BARISTA Capsule
+              </p>
+              <p className="title-sub" data-aos="fade-up">
+                아메리카노를 위한 카누 바리스타 캡슐
+              </p>
+              <ul data-aos="fade-up">
                 <li>
                   <div>
                     <img
@@ -289,14 +299,18 @@ function Main() {
             <div className="contents">
               <div className="inner">
                 <div>
-                  <p className="title">Special Machine</p>
-                  <p className="product">한번의 터치로 완성하는 캡슐 머신</p>
-                  <p className="detail">
+                  <p className="title" data-aos="fade-up">
+                    Special Machine
+                  </p>
+                  <p className="product" data-aos="fade-up">
+                    한번의 터치로 완성하는 캡슐 머신
+                  </p>
+                  <p className="detail" data-aos="fade-up">
                     단 한번의 터치로 카페 퀄리티의 아메리카노를
                     <br />
                     간편하게 완성 할 수 있습니다.
                   </p>
-                  <a href="#none">
+                  <a href="#none" data-aos="fade-up">
                     VIEW MORE
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -320,14 +334,18 @@ function Main() {
             <div className="contents-reverse">
               <div className="inner">
                 <div>
-                  <p className="title">Special Capsule</p>
-                  <p className="product">다양한 로스팅으로 즐기는 카누 캡슐</p>
-                  <p className="detail">
+                  <p className="title" data-aos="fade-up">
+                    Special Capsule
+                  </p>
+                  <p className="product" data-aos="fade-up">
+                    다양한 로스팅으로 즐기는 카누 캡슐
+                  </p>
+                  <p className="detail" data-aos="fade-up">
                     라이트 로스팅부터 다크 로스팅까지 원하는 단계별로
                     <br />
                     카누의 풍부한 캡슐을 즐겨보세요.
                   </p>
-                  <a href="#none">
+                  <a href="#none" data-aos="fade-up">
                     VIEW MORE
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -356,13 +374,15 @@ function Main() {
           <section className="serial-number">
             <div className="serial-bg"></div>
             <div className="content">
-              <div className="logo">
+              <div className="logo" data-aos="fade-up">
                 <img
                   src="https://kanu.co.kr/layout/basic/img/main/kanulogo-white.svg"
                   alt="kanu"
                 />
               </div>
-              <p className="title">카누 바리스타 정품 등록 혜택</p>
+              <p className="title" data-aos="fade-up">
+                카누 바리스타 정품 등록 혜택
+              </p>
               <div className="benefit">
                 <div>
                   <img
@@ -373,13 +393,15 @@ function Main() {
               </div>
               <div className="register">
                 <div>
-                  <p className="title">카누 정품 시리얼 번호 등록</p>
-                  <p className="info">
+                  <p className="title" data-aos="fade-up">
+                    카누 정품 시리얼 번호 등록
+                  </p>
+                  <p className="info" data-aos="fade-up">
                     정품등록을 하고 카누 바리스타의 가치를
                     <br />
                     서비스를 통해 누려 보세요.
                   </p>
-                  <a href="#none">
+                  <a href="#none" data-aos="fade-up">
                     정품 등록하기
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -398,7 +420,7 @@ function Main() {
                     </svg>
                   </a>
                 </div>
-                <ul>
+                <ul data-aos="fade-up">
                   <li>
                     <span>
                       <strong>24</strong>
@@ -423,7 +445,6 @@ function Main() {
               </div>
             </div>
           </section>
-          <script>AOS.init();</script>
         </div>
       </div>
     </div>
