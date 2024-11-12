@@ -43,7 +43,7 @@ function Header() {
                 <a href="#none">정품등록</a>
               </li>
               <li>
-                <a href="#none">SHOP</a>
+                <a href="/shop">SHOP</a>
               </li>
               <li>
                 <a href="#none">RECYCLE</a>

@@ -1,0 +1,144 @@
+#wrap #container #contents .intro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://kanu.co.kr/layout/basic/img/img-shopbg.png");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+#wrap #container #contents .intro .intro-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#wrap #container #contents .intro .intro-inner .brand-introduce {
+  width: 1200px;
+  margin: 0 auto;
+  z-index: 20;
+  color: #f1f1f1;
+}
+
+#wrap #container #contents .intro .intro-inner .brand-introduce h2 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+#wrap #container #contents .intro .intro-inner .brand-introduce h2 span {
+  color: #bc7d63;
+}
+
+#wrap #container #contents .intro .intro-inner .brand-introduce p {
+  padding-top: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+}
+#wrap #container #contents .inner ul {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.25rem;
+  background-color: #fffbf8;
+  font-weight: 500;
+}
+#wrap #container #contents .inner ul li {
+  width: 240px;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+#wrap #container #contents .inner ul li.selected {
+  border-bottom: 1px solid #bc7d63;
+}
+#wrap #container #contents .inner ul li a {
+  display: block;
+  padding: 1.75rem 0;
+}
+#wrap #container #contents .items {
+  margin-top: 5rem;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 250px;
+}
+#wrap #container #contents .items ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.5rem;
+  row-gap: 100px;
+}
+#wrap #container #contents .items ul li {
+  position: relative;
+}
+#wrap #container #contents .items .item .item-content .thumbnail {
+  background: linear-gradient(180deg, #fafafa 0%, #f1f1f1 100%);
+}
+#wrap #container #contents .items .item .item-content .addCartItem {
+  position: relative;
+  margin-top: 0.75rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  color: #888;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+#wrap #container #contents .items .item .item-content .addCartItem div {
+  background-image: url("https://kanu.co.kr/layout/basic/img/icon-bag.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#wrap #container #contents .items .item .item-content .product-detail {
+  padding-top: 1.25rem;
+}
+#wrap
+  #container
+  #contents
+  .items
+  .item
+  .item-content
+  .product-detail
+  div
+  .cnb-name {
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#wrap #container #contents .items .item .item-content .product-detail .price {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-size: 22px;
+  font-weight: 600;
+}
+#wrap
+  #container
+  #contents
+  .items
+  .item
+  .item-content
+  .product-detail
+  .price
+  span {
+  color: #111;
+}
