@@ -4,7 +4,7 @@
 
 <br>
 
-### • 배포 주소: []()
+### • 배포 주소: [https://kanu-clone.vercel.app/](https://kanu-clone.vercel.app/)
 
 <br>
 
