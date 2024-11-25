@@ -53,7 +53,7 @@ function Shop() {
                   <div className="item-content">
                     <div className="thumbnail">
                       <a href="#none">
-                        <img src={product.image} alt={product.name} />
+                        <img src={product.image} alt={product.name} loading="lazy" />
                       </a>
                     </div>
                     <div className="addCartItem">

@@ -28,7 +28,11 @@ function Header() {
         <nav className="cnb-header-inner">
           <div className="logo">
             <a href="/">
-              <img src="https://kanu.co.kr/SkinImg/img/logo.png" alt="로고" />
+              <img
+                src="https://kanu.co.kr/SkinImg/img/logo.png"
+                alt="로고"
+                loading="lazy"
+              />
             </a>
           </div>
           <div className="link">

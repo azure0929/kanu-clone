@@ -63,6 +63,7 @@ function Main() {
                   <img
                     src="https://kanu.co.kr/layout/basic/img/main/kanuMachineUrban.jpg"
                     alt="어반"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -105,6 +106,7 @@ function Main() {
                   <img
                     src="https://kanu.co.kr/layout/basic/img/main/kanuMachineBreeze.jpg"
                     alt="브리즈"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -147,6 +149,7 @@ function Main() {
                   <img
                     src="https://kanu.co.kr/layout/basic/img/main/kanuMachinePebble.jpg"
                     alt="페블"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -194,6 +197,7 @@ function Main() {
                     <img
                       src="https://kanu.co.kr/layout/basic/img/main/kanuBaristarCapsule.png"
                       alt="카누 바리스타 캡슐"
+                      loading="lazy"
                     />
                   </div>
                   <p>카누 바리스타 캡슐</p>
@@ -229,6 +233,7 @@ function Main() {
                     <img
                       src="https://kanu.co.kr/layout/basic/img/main/kanuNespressoCapsule.png"
                       alt="네스프레소 캡슐"
+                      loading="lazy"
                     />
                   </div>
                   <p>카누 네스프레소 호환캡슐</p>
@@ -261,6 +266,7 @@ function Main() {
                     <img
                       src="https://kanu.co.kr/layout/basic/img/main/kanuDolcheCapsule.png"
                       alt="돌체 캡슐"
+                      loading="lazy"
                     />
                   </div>
                   <p>카누 돌체구스토 호환캡슐</p>
@@ -378,6 +384,7 @@ function Main() {
                 <img
                   src="https://kanu.co.kr/layout/basic/img/main/kanulogo-white.svg"
                   alt="kanu"
+                  loading="lazy"
                 />
               </div>
               <p className="title" data-aos="fade-up">
@@ -387,7 +394,8 @@ function Main() {
                 <div>
                   <img
                     src="https://kanu.co.kr/layout/basic/img/main/kanuBenefit.jpg"
-                    alt=""
+                    alt="혜택"
+                    loading="lazy"
                   />
                 </div>
               </div>
