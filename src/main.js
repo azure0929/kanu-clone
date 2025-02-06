@@ -28,7 +28,7 @@ function Main() {
           <section className="coffee-machine">
             <div className="tabmenu">
               <h2>카누 바리스타 전용머신</h2>
-              <ul className="kanu-tab mt-3 flex gap-8">
+              <ul className="kanu-tab">
                 <li
                   className={activeTab === "urban" ? "active" : ""}
                   onClick={() => handleTabClick("urban")}
